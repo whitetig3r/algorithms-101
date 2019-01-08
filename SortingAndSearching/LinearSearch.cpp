@@ -14,7 +14,7 @@ int linearSearch(int search, int myInputArray[], int n){
 }
 
 int main(){
-    int n;
+    int n,search;
     cout<<"Enter number of elements"<<endl;
     cin>>n;
     int myInputArray[n];
@@ -22,7 +22,6 @@ int main(){
     for(int i=0; i<n;i++){
         cin>>myInputArray[i];
     }
-    int search;
     cout<<"Enter element to search:"<<endl;
     cin>>search;
     int result = linearSearch(search, myInputArray, n); //store index of queried element in an integer variable
